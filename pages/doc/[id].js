@@ -23,7 +23,7 @@ function Doc() {
   return (
     <div>
       <header className="flex justify-between items-center p-3 pb-1">
-        <span onClick={()=> Router.push("/")} className="cursor-pointer">
+        <span onClick={()=> router.push("/")} className="cursor-pointer">
             <Icon name="description" size="5xl" color="blue" />
         </span>
 
